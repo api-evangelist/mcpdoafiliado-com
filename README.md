@@ -1,4 +1,4 @@
-# mcpdoafiliado-com
+# MCP do Afiliado
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mcpdoafiliado-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mcpdoafiliado.com/
+MCP do Afiliado provides a free MCP (Multi‑Channel Publisher) service that lets users generate affiliate links for major marketplaces such as Shopee, AliExpress, Amazon, Mercado Livre, Magalu, Awin, Rakuten and CityAds directly within AI chat interfaces like Claude, ChatGPT, Cursor, and VS Code. Users create a free account, add their marketplace credentials, and then request link conversion or product search via simple HTTP endpoints, receiving JSON responses with tracking information. The platform offers four read‑only tools, supports up to 150 links per call, and operates without credit‑card requirements or paid plans.
+
+**Areas:** Affiliate · AI · E‑commerce · Marketing · Free
+
+## MCP do Afiliado on APIs.io
+
+Everything profiled for MCP do Afiliado is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mcpdoafiliado-com/](https://apis.io/providers/mcpdoafiliado-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [MCP do Afiliado API](https://apis.io/apis/mcpdoafiliado-com/mcp-do-afiliado-api/) — API REST providing endpoints for affiliate link generation and product search, authenticated via X-API-Key.
+- [MCP do Afiliado API](https://apis.io/apis/mcpdoafiliado-com/mcpdoafiliado-com-api/) — MCP do Afiliado API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-11-18); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [PostApiV1ConvertLinksRequest](https://apis.io/schemas/mcpdoafiliado-com/mcpdoafiliado-com-post-api-v1-convert-links-request/)
+- [PostApiV1ProductRequest](https://apis.io/schemas/mcpdoafiliado-com/mcpdoafiliado-com-post-api-v1-product-request/)
+- [PostApiV1SearchProductsRequest](https://apis.io/schemas/mcpdoafiliado-com/mcpdoafiliado-com-post-api-v1-search-products-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mcpdoafiliado Com Context](https://apis.io/jsonld/mcpdoafiliado-com/mcpdoafiliado-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MCP do Afiliado API Rules](https://apis.io/rules/mcpdoafiliado-com/mcpdoafiliado-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MCP do Afiliado Authentication](https://apis.io/security/mcpdoafiliado-com/mcpdoafiliado-com-authentication/)
+- [MCP do Afiliado Domain Security](https://apis.io/security/mcpdoafiliado-com/mcpdoafiliado-com-domain-security/)
+- [MCP do Afiliado Vulnerability Disclosure](https://apis.io/security/mcpdoafiliado-com/mcpdoafiliado-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mcpdoafiliado.com/)
+- [Documentation](https://mcpdoafiliado.com/docs)
+- [API reference](https://mcpdoafiliado.com/docs/api)
+- [Terms of service](https://mcpdoafiliado.com/termos)
+- [Privacy policy](https://mcpdoafiliado.com/privacidade)
+
+## API Evangelist rating
+
+**Kin Score 43.9** — developing · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 47.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 27.7 |
+
+**Agent readiness 42.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mcpdoafiliado-com/](https://apis.io/providers/mcpdoafiliado-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MCP do Afiliado: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mcpdoafiliado-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
